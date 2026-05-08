@@ -344,10 +344,7 @@ def test():
      
     # 构建请求体
     payload = {
-        "fields": {'姓名': '陈宇阳', '邮箱': '768725481@qq.com', 
-              '应聘职位': '大模型应用', '教育信息': '硕士 - 广州大学 (软件工程)\n本科 - 三江学院 (软件工程)', 
-              '工作/项目经历': '1. FirewaLLM - 隐私保护防火墙 (获华秦杯华为二等奖)\n2. 基于飞书的智能办公助手 - ReAct范式多工具协同Agent系统', 
-              '专业技能': 'PyTorch, LangChain, Transformer, RAG, 大模型微调, BERT, NER, 隐私计算'}
+        "fields": {
     }
     
     headers = {
